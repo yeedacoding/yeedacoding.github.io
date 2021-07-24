@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko"
-title                    : "Yeeda Coding"
+title                    : "나만의 개발자 "
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yeedacoding"
@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Yeeda Coding"
-  avatar           : "/Users/82105/Desktop/earth1.png"
+  avatar           : "/Users/82105/Desktop/earth.jpg"
   bio              : "**개발자 노트**"
   location         : "Korea"
   email            : "taeheun0325@naver.com"

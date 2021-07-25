@@ -1,7 +1,7 @@
 ---
 title: "Algorithm practice"
 permalink: /Algorithm/
-layout: categories
+layout: category
 author_profile: true
 taxonomy: Algorithm
 ---

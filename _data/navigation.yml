@@ -4,8 +4,6 @@ main:
     url: /categories/
   - title: "Algorithm"
     url: /Algorithm/
-  - title: "윤동주"
-    url: /categories/윤동주/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

@@ -2,8 +2,6 @@
 main:
   - title: "Category"
     url: /categories/
-  - title : "윤동주"
-    url: /categories/윤동주/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

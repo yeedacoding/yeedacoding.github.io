@@ -2,8 +2,8 @@
 main:
   - title: "Category"
     url: /categories/
-  - title: "Algorithm"
-    url: /Algorithm/
+  #- title: "Algorithm"
+  #  url: /Algorithm/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

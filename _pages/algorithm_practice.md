@@ -1,9 +1,8 @@
 ---
-title: "Algorithm practice"
+title: "Posts by Category"
+layout: categories
 permalink: /Algorithm/
-layout: category
 author_profile: true
-taxonomy: Algorithm
 ---
 
-백준 사이트 알고리즘 문제 공부
+백준 사이트 알고리즘 문제 연습

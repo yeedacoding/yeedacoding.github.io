@@ -1,9 +1,9 @@
 ---
 title: "Algorithm practice"
-permalink: /Algorithm/백준/
+permalink: /Algorithm/
 layout: category
 author_profile: true
-taxonomy: 백준
+taxonomy: Algorithm
 ---
 
 백준 사이트 알고리즘 문제 공부

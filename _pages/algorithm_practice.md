@@ -1,6 +1,6 @@
 ---
 title: "Algorithm practice"
-permalink: /algorithm/백준/
+permalink: /Algorithm/백준/
 layout: category
 author_profile: true
 taxonomy: 백준

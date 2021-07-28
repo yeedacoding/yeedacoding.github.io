@@ -1,5 +1,5 @@
 ---
-title:  "[Python_mini_projects_4] 나에게 카카오톡 메세지 보내기 #1. 카카오 메세지 API를 활용하여 나에게 카카오톡 보내기"
+title:  "[Python_mini_projects_4] 나에게 카카오톡 메세지 보내기 #2. 카카오 메세지 API를 활용하여 나에게 카카오톡 보내기"
 excerpt: "카카오 메세지 Open API를 활용하여 나에게 카카오톡 보내기"
 
 categories:

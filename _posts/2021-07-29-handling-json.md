@@ -3,7 +3,7 @@ title:  "[Python] Python 내장 모듈 json으로 JSON데이터 핸들링"
 excerpt: "Python 내장 모듈 json으로 JSON 데이터 다루기"
 
 categories:
-  - ython 
+  - python 
 tags:
   - python
   - json

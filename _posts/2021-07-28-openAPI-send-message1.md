@@ -296,7 +296,7 @@ def save_tokens(filename, tokens) :
 
 - **<span style="background-color : darkslateblue ; border-radius : 8px">json.dump()</span>**
 
-  Python 객체를 JSON문자로 변환한 결과를 파일에 바로 쓰고(write) 싶은 경우 사용하는 함수
+  Python 객체를 JSON문자로 변환한 결과를 파일에 바로 쓰고(write) 싶은 경우 사용하는 함수[json handling](https://yeedacoding.github.io/python/handling-json/)
 
 tokens = response.json() 즉 요청한 데이터의 정보가 들어있는 json 형태가 tokens 변수에 들어가 있는 것이고 json.dump(tokens, fp)를 통해 filename이란 이름의 파일명으로 tokens의 정보가 저장되는 것이다.
 
@@ -315,7 +315,7 @@ def load_tokens(filename) :
 
 - **<span style="background-color : darkslateblue ; border-radius : 8px">json.load()</span>**
 
-  JSON 파일에 저장된 데이터를 읽어서 Python 객체로 불러오고 싶은 경우에 사용하는 함수
+  JSON 파일에 저장된 데이터를 읽어서 Python 객체로 불러오고 싶은 경우에 사용하는 함수[json handling](https://yeedacoding.github.io/python/handling-json/)
 
 즉, tokens라는 파이썬 객체에 filename이란 이름의 파일명으로 저장된 json 파일을 불러오는 것이다.
 
@@ -349,7 +349,7 @@ def update_tokens(app_key, filename) :
     return tokens
 ```
 
-access_token을 갱신하는 함수이다. tokens = load_tokens(filename)을 통해 token값을 tokens 변수에 입력하고 카카오 토큰 갱신 양식에 맞춰 request를 해준다.[토큰 갱신]([REST API | Kakao Developers 문서](https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#refresh-token))
+access_token을 갱신하는 함수이다. tokens = load_tokens(filename)을 통해 token값을 tokens 변수에 입력하고 카카오 토큰 갱신 양식에 맞춰 request를 해준다.[토큰 갱신](https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#refresh-token)
 
 요청에 실패하면 오류 메세지를 출력하고, 성공했다면 tokens['access_token'] = response.json()['access_token']를 통해 기존 access_token 값을 새로 발급받은 access_token 값으로 변경 후 save_tokens()함수를 호출해 파일에 저장한다.
 
@@ -377,5 +377,5 @@ error_code를 구글링해보았더니 카카오 개발자 사이트에서 친�
 
 이럴 때마다 새로운 인가 코드를 사용해야 되서 크롬 시크릿 창에도 복붙과 끄고 키는 것을 수 없이 반복했던 것 같다...
 
-이외의 오류코드에 대한 설명이 나와있다.[인가 코드, 엑세스 토큰 관련 오류]([문제 해결 | Kakao Developers 문서](https://developers.kakao.com/docs/latest/ko/kakaologin/trouble-shooting))
+이외의 오류코드에 대한 설명이 나와있다.[인가 코드, 엑세스 토큰 관련 오류](https://developers.kakao.com/docs/latest/ko/kakaologin/trouble-shooting)
 
